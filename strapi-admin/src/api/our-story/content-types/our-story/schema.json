@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "our_stories",
+  "info": {
+    "singularName": "our-story",
+    "pluralName": "our-stories",
+    "displayName": "Our Story",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "About_Us": {
+      "type": "string",
+      "default": "Established in June 2019, inspired by the rich tapestry of Asian street foods and the vibrant flavors of Filipino foods, we embarked on a mission to create a haven for food enthusiasts. At Sagu Bubble Tea, we take pride in offering an eclectic fusion of authentic Filipino delicacies and the latest trends in milk tea and bubble tea concoctions. Our carefully curated menu features a tantalizing array of delectable delights, infused with the essence of traditional flavors, alongside an exciting lineup of refreshingly innovative tea blends."
+    },
+    "Our_Goal": {
+      "type": "string",
+      "default": "Every sip and every bite at Sagu Bubble Tea is a celebration of our passion for culinary excellence and our commitment to serving you nothing short of the best. With each visit, prepare to embark on a journey that tantalizes your taste buds and transports you to the bustling streets of Asia, all within the cozy ambiance of our welcoming establishment."
+    }
+  }
+}

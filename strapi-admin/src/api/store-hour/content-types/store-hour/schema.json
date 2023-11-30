@@ -1,0 +1,44 @@
+{
+  "kind": "singleType",
+  "collectionName": "store_hours",
+  "info": {
+    "singularName": "store-hour",
+    "pluralName": "store-hours",
+    "displayName": "Store Hours",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Monday": {
+      "type": "string",
+      "default": "11:00am - 8:00pm"
+    },
+    "Tuesday": {
+      "type": "string",
+      "default": "11:00am - 8:00pm"
+    },
+    "Wednesday": {
+      "type": "string",
+      "default": "11:00am - 8:00pm"
+    },
+    "Thursday": {
+      "type": "string",
+      "default": "11:00am - 8:00pm"
+    },
+    "Friday": {
+      "type": "string",
+      "default": "11:00am - 8:00pm"
+    },
+    "Saturday": {
+      "type": "string",
+      "default": "11:00am - 8:00pm"
+    },
+    "Sunday": {
+      "type": "string",
+      "default": "11:00am - 8:00pm"
+    }
+  }
+}
