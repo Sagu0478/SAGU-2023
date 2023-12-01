@@ -4,7 +4,7 @@ import React from "react";
 import { useAppContext } from "@/contexts/Provider";
 import CheckoutCart from "./checkoutCart.js";
 
-function checkoutSummary() {
+const CheckoutSummary = () => {
   const { checkoutTotal, selectedTip } = useAppContext();
   const { cartItems } = useAppContext();
   const cart = [];
@@ -46,4 +46,4 @@ function checkoutSummary() {
   );
 }
 
-export default checkoutSummary;
+export default CheckoutSummary;

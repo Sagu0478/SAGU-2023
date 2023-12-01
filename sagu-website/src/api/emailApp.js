@@ -1,4 +1,4 @@
-require('dotenv').config({ path: '../.env.local' });
+// require('dotenv').config({ path: '../.env.local' });
 
 // Modules for the emailing system
 const nodemailer = require("nodemailer");

@@ -17,7 +17,7 @@ function SignUp() {
         </div>
 
         <div className="text-center mb-5">
-          By clicking "Create an Account", you are agreeing to <a href="/terms-and-conditions" class="hover:underline hover:text-white"><strong>Terms & Conditions</strong></a> and <a href="/privacy-policy" class="hover:underline hover:text-white"><strong>Privacy Policy</strong></a>.
+          By clicking &quot;Create an Account&quot;, you are agreeing to <a href="/terms-and-conditions" class="hover:underline hover:text-white"><strong>Terms & Conditions</strong></a> and <a href="/privacy-policy" class="hover:underline hover:text-white"><strong>Privacy Policy</strong></a>.
         </div>
       </div>
     </div>

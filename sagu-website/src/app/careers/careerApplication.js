@@ -174,4 +174,5 @@ const CareerApplication = forwardRef(({ jobTitle }, ref) => {
   );
 });
 
+CareerApplication.displayName = 'CareerApplication';
 export default CareerApplication;

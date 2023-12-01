@@ -18,7 +18,7 @@ function PromoGrid({promos}) {
             {/* Mapping the promo items defined in a dictionary */}
             {promos.map(({ title, description, note, imageUrl }, index) => {
                 return (
-                    <div className="flex flex-col items-center">
+                    <div key={ index } className="flex flex-col items-center">
                         <div className="flex flex-col border border-1 border-solid border-gray-500 gap-10">
                             <div className="relative w-48 md:w-60 h-64 md:h-80 overflow-hidden">
                             <Image 

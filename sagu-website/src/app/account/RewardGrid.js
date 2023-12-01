@@ -15,7 +15,7 @@ function RewardGrid({ rewards }) {
             <div className="grid grid-cols-3 gap-6 text-md p-2">
                 {rewards.map(({title,description,promocode},index) =>{
                     return(
-                        <div className=" items-center p-2">
+                        <div key={ index } className=" items-center p-2">
                             <div className="border border-black rounded-2xl">
                                 <Image 
                                     className="w-full h-full rounded-2xl"

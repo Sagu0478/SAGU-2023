@@ -57,7 +57,7 @@ function TermsAndConditions() {
         <div className='flex flex-col gap-5'>
           {infoText.map(({ title, body }, index) => {
             return (
-              <div className='flex flex-col gap-4'>
+              <div key={ index } className='flex flex-col gap-4'>
                 <h2 className='text-black font-medium font-public-sans text-xl md:text-2xl'>
                   {title}
                 </h2>

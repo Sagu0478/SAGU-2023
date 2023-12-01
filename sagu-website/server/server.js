@@ -1,4 +1,4 @@
-require('dotenv').config({ path: '../.env.local' });
+// require('dotenv').config({ path: '../.env.local' });
 
 const express = require("express");
 const multer = require("multer");
@@ -73,7 +73,7 @@ app.use("*", (req, res) => {
 });
 
 // Set the port
-const PORT = process.env.LOCALHOST_PORT || 3001;
+const PORT = process.env.LOCALHOST_PORT;
 
 // Start the server
 app.listen(PORT, () => {

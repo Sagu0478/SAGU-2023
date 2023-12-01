@@ -157,12 +157,12 @@ function Profile() {
             {isToggled && <div>
               <h2>
               Imagine treating yourself to your favorite boba flavors not just once, but TEN times!
-
-              And guess what? On your TENTH order, you'll receive a FREE, mouthwatering boba delight that'll leave
+              
+              And guess what? On your TENTH order, you&apos;ll receive a FREE, mouthwatering boba delight that&apos;ll leave
               you jumping for joy! 
               </h2>
               <p>
-              It's as easy as 1, 2, 3:
+              It&apos;s as easy as 1, 2, 3:
               <br/>
               Place an order.
               Keep counting until you reach TEN.

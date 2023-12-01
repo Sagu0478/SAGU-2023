@@ -27,7 +27,7 @@ function  JobLayout({jobs}){
             <div className='flex grid grid-cols-3 gap-6'>
                 {jobs.map(({jobTitle,jobDescription},index) =>{
                     return(
-                        <div className="flex items-center justify-center p-2">
+                        <div key={ index } className="flex items-center justify-center p-2">
                             <div className="border border-black rounded-2xl p-2 text-center ">
                                 <div className="p-2">
                                     <p className='text-black text-3x1 font-bold'>

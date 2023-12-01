@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 
 //After every 10 orders, the user gets a free boba tea
 // initial point = 0
-function Rewards({user}) {
+const Rewards = ({user}) => {
     const Redeem = () => {
         if (user.points >= 10){
             SetUser({
@@ -16,7 +16,7 @@ function Rewards({user}) {
         }
 
          }
-    }
+    
     const AddPoints = () =>{
         if(user.order == true){
             SetUser.points(user.points + 1);
@@ -24,6 +24,7 @@ function Rewards({user}) {
         
 
     }
+
   return (
     <div>
         <div> 
@@ -40,7 +41,7 @@ function Rewards({user}) {
         </div>
     </div>
   )
-
+}
 
 
 

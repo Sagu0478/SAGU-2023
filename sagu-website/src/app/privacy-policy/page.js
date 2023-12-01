@@ -1,6 +1,6 @@
-import Image from 'next/image';
+import Image from "next/image";
 import Link from "next/link";
-import React from 'react';
+import React from "react";
 import storeIMG from "../../../public/assets/images/IMG_4364.JPG";
 
 export const metadata = {
@@ -47,7 +47,7 @@ function PrivacyPolicy() {
           </h1>
 
           <Image
-            className='flex w-full h-full drop-shadow-lg items-stretch'
+            className="flex w-full h-full drop-shadow-lg items-stretch"
             src={storeIMG}
           />
         </div>
@@ -55,22 +55,22 @@ function PrivacyPolicy() {
 
       {/* Bolded notice section */}
       <section className="flex flex-grow items-center max-w-screen-xl my-10 lg:my-20 px-6 overflow-hidden">
-        <span className='text-balck font-bold text-xl md:text-2xl'>
+        <span className="text-balck font-bold text-xl md:text-2xl">
           Fugiat laboris pariatur aliqua non. Et duis reprehenderit dolor dolore cupidatat. Dolore labore deserunt sit ullamco nulla reprehenderit nulla eiusmod voluptate reprehenderit adipisicing. Ea excepteur eiusmod magna Lorem.
         </span>
       </section>
 
       {/* Text Section */}
-      <section className='flex flex-grow items-center max-w-screen-xl my-10 lg:my-20 px-6 overflow-hidden'>
-        <div className='flex flex-col gap-5'>
+      <section className="flex flex-grow items-center max-w-screen-xl my-10 lg:my-20 px-6 overflow-hidden">
+        <div className="flex flex-col gap-5">
           {infoText.map(({ title, body }, index) => {
             return (
-              <div className='flex flex-col gap-4'>
-                <h2 className='text-black font-medium font-public-sans text-lg md:text-xl'>
+              <div key={ index } className="flex flex-col gap-4">
+                <h2 className="text-black font-medium font-public-sans text-lg md:text-xl">
                   {title}
                 </h2>
 
-                <p className='text-black font-normal font-red-hat'>
+                <p className="text-black font-normal font-red-hat">
                   {body}
                 </p>
               </div>

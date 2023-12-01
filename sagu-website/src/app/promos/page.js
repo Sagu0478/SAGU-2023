@@ -19,7 +19,7 @@ function Promos() {
         <div className="flex flex-col items-center gap-10 overflow-auto lg:flex-row">
           <div className="flex flex-col gap-10">
             <h1 className="text-5xl font-medium font-red-hat">
-              SAGU Bubble Tea's Club
+              SAGU Bubble Tea&apos;s Club
             </h1>
             <p className="text-2xl sm:text-4xl md:text-2xl">
               Excepteur dolor voluptate aute deserunt magna sunt velit labore

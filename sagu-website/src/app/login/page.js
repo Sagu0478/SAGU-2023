@@ -22,7 +22,7 @@ function LogIn() {
               </div>
 
               <div className="bottom-0 w-full text-center pb-2">
-                Don't have an account?{" "}
+                Don&apos;t have an account?{" "}
                 <a href="/signup" class="hover:text-white">
                   <strong>Sign Up</strong>
                 </a>{" "}
